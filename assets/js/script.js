@@ -1,6 +1,6 @@
 'use strict';
 
-
+import { Analytics } from "@vercel/analytics/react"
 
 // element toggle function
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
